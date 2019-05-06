@@ -13,7 +13,7 @@ _Example Output_:
 
 There are TWO parts to this workflow. The first is best illustrated by checking out the ipynb tutorial that will walk you through the OSM vector data to ML training data. Once the traing data is generated, you can use the following scripts to create a virtual environment for AWS Sagemaker training.
 
-### Setup Your Machine
+### _Setup Your Machine_
 
 1) setup a virtual environnment: 
 
@@ -36,12 +36,12 @@ SStrong-CRYL17$ cd sagely/
 SStrong-CRYL17$ sh setup.sh
 ```
 
-### Download Script
+### _Download Script_
 ```console
 SStrong-CRYL17$ sh get_data.sh
 ```
 
-### Test Script
+### _Test Script_
 ```console
 SStrong-CRYL17$ sh test.sh
 ```
@@ -49,7 +49,7 @@ SStrong-CRYL17$ sh test.sh
 Results should look like:
 ![]()  
 
-### Clean Up
+### _Clean Up_
 
 ```console
 deactivate
