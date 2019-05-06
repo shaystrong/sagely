@@ -11,6 +11,50 @@ _Example Output_:
 
 ## Setup
 
+### Setup Your Machine
+
+1) setup a virtual environnment: 
+
+```console
+SStrong-CRYL17$ virtualenv -p python3 sagemaker_trans
+SStrong-CRYL17$ source sagemaker_trans/bin/activate
+SStrong-CRYL17$ cd sagemaker_trans/
+```
+
+2) Clone this repo onto your local machine.
+
+```console
+SStrong-CRYL17$ git clone https://github.com/shaystrong/sagely.git
+SStrong-CRYL17$ cd sagely/
+```
+
+3) Run the setup. It will install necessary libraries
+
+```console
+SStrong-CRYL17$ sh setup.sh
+```
+
+### Download Script
+```console
+SStrong-CRYL17$ sh get_data.sh
+```
+
+### Test Script
+```console
+SStrong-CRYL17$ sh test.sh
+```
+
+Results should look like:
+![]()  
+
+### Clean Up
+
+```console
+deactivate
+rm -rf /path/to/venv/sagemaker_trans/
+```
+
+
 ## Train
 
 ## Test
