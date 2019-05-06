@@ -1,12 +1,12 @@
 # Sagely
 
-Purpose: Use OSM vector data to train a convolutional neural network (CNN) in AWS Sagemaker for building, road, (etc) object detection.
+_Purpose_: Use OSM vector data to train a convolutional neural network (CNN) in AWS Sagemaker for building, road, (etc) object detection.
 
-Inputs: Location of HOT-OSM task OR city/state/country of interest & a web-url to DG Cloud Optimized Geotif (COG).
+_Inputs_: Location of HOT-OSM task OR city/state/country of interest & a web-url to DG Cloud Optimized Geotif (COG).
 
-Outputs: TMS (slippy map) training data using the OSM vectors + AWS Sagemaker model endpoint.
+_Outputs_: TMS (slippy map) training data using the OSM vectors + AWS Sagemaker model endpoint.
 
-Example Output:
+_Example Output_:
 
 
 ## Setup
