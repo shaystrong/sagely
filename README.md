@@ -59,8 +59,6 @@ rm -rf /path/to/venv/sagemaker_trans/
 
 ## Train
 
-## Test
-
 ## Watch!
 
 Watch you model training on Sagemaker! You can login to the AWS console and see the progression of the learning as well as all your parameters. 
