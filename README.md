@@ -6,8 +6,7 @@ _Inputs_: Location of HOT-OSM task OR city/state/country of interest & a web-url
 
 _Outputs_: TMS (slippy map) training data using the OSM vectors + AWS Sagemaker model endpoint.
 
-_Example Output_:
-
+![](assets/comores.png)
 
 ## Test
 
