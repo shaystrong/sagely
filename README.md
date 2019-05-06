@@ -17,6 +17,8 @@ _Example Output_:
 
 ## Watch!
 
+## Metrics
+
 ## Notes
 
 Your OSM vector data may be messy, and or may not align with the imagery. It is up to you to manually inspect, modify, cull the training data generated for optimal model performance. There is no step presented here to do this for you. In fact, it is a critical step as a Data Scientist that you own that element.
