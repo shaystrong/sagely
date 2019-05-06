@@ -11,6 +11,8 @@ _Example Output_:
 
 ## Setup
 
+There are TWO parts to this workflow. The first is best illustrated by checking out the ipynb tutorial that will walk you through the OSM vector data to ML training data. Once the traing data is generated, you can use the following scripts to create a virtual environment for AWS Sagemaker training.
+
 ### Setup Your Machine
 
 1) setup a virtual environnment: 
@@ -61,7 +63,11 @@ rm -rf /path/to/venv/sagemaker_trans/
 
 ## Watch!
 
+Watch you model training on Sagemaker! You can login to the AWS console and see the progression of the learning as well as all your parameters. 
+
 ## Metrics
+
+None Yet!
 
 ## Notes
 
