@@ -1,0 +1,34 @@
+[I 22:11:12.128 NotebookApp] Serving notebooks from local directory: /Users/shay.strong/Documents/github/public/sagely
+[I 22:11:12.128 NotebookApp] The Jupyter Notebook is running at:
+[I 22:11:12.128 NotebookApp] http://localhost:8888/?token=348a9326c2df3b90c7e62a6b7c303f92e3bb83e01ad34b00
+[I 22:11:12.128 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 22:11:12.155 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=348a9326c2df3b90c7e62a6b7c303f92e3bb83e01ad34b00
+[I 22:11:12.805 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[W 22:11:13.240 NotebookApp] 404 GET /apple-touch-icon-precomposed.png (::1) 11.00ms referer=None
+[W 22:11:13.380 NotebookApp] 404 GET /apple-touch-icon.png (::1) 3.10ms referer=None
+[I 22:11:21.983 NotebookApp] Creating new notebook in 
+[I 22:11:23.748 NotebookApp] Kernel started: d50d6cac-c57d-495b-bbdc-81aa43a70484
+[I 22:11:24.533 NotebookApp] Adapting to protocol v5.1 for kernel d50d6cac-c57d-495b-bbdc-81aa43a70484
+[I 22:13:24.615 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:19:24.606 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:21:24.584 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:21:26.484 NotebookApp] 302 GET /notebooks/assets/comores.png (::1) 2.45ms
+[I 22:21:26.486 NotebookApp] 302 GET /notebooks/assets/kenneth2019.png (::1) 1.36ms
+[I 22:21:26.488 NotebookApp] 302 GET /notebooks/assets/osm_deets.png (::1) 1.02ms
+[I 22:21:27.026 NotebookApp] Kernel started: d1697cd8-d68e-4e40-af5c-8a4c3121b5d5
+[I 22:21:27.997 NotebookApp] Adapting to protocol v5.1 for kernel d1697cd8-d68e-4e40-af5c-8a4c3121b5d5
+[I 22:24:49.466 NotebookApp] Starting buffering for d1697cd8-d68e-4e40-af5c-8a4c3121b5d5:2b590287d65c46d7bdde0fcdefb5a94f
+[I 22:25:25.438 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:27:25.418 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:29:25.436 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:31:25.443 NotebookApp] Saving file at /Untitled.ipynb
+[I 22:33:04.592 NotebookApp] 302 GET /notebooks/assets/comores.png (::1) 0.88ms
+[I 22:33:04.593 NotebookApp] 302 GET /notebooks/assets/kenneth2019.png (::1) 0.69ms
+[I 22:33:04.594 NotebookApp] 302 GET /notebooks/assets/osm_deets.png (::1) 0.70ms
+[I 22:33:05.138 NotebookApp] Adapting to protocol v5.1 for kernel d1697cd8-d68e-4e40-af5c-8a4c3121b5d5
+[I 22:33:20.490 NotebookApp] 302 GET /notebooks/osm_ml_training.ipynb (::1) 0.74ms
+[I 22:33:25.422 NotebookApp] Saving file at /Untitled.ipynb
