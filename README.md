@@ -44,11 +44,13 @@ ubuntu$ sh setup.sh
 ubuntu$ sh get_data.sh
 ```
 
-This will download the mxnet .rec files generated at the end of the part I ipynb. You can start from here to run sagemaker, or you can follow the label generation process from the start in part I. The part II notebook is strictly running a Sagemaker training event and creating an endpoint. 
+This will download the mxnet .rec files generated at the end of the part I ipynb. This will also download the full set of DG tiles that we will infer against later. 
 
-### _Run Script_
+You can start from here to run sagemaker (part II), or you can follow the label generation process from the start in part I. The part II notebook is strictly running a Sagemaker training event and creating an endpoint. 
 
-
+### _Test_
+ 
+Assuming you either have created an endpoint, you can predict labels using the endpoint. Edit the `test.sh` script to include your endpoint and data location.
 
 ### _Clean Up_
 
