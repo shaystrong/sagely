@@ -55,6 +55,10 @@ You can start from here to run sagemaker (part II), or you can follow the label 
  
 Assuming you either have created an endpoint, you can predict labels using the endpoint. Edit the `test.sh` script to include your endpoint and data location.
 
+```console
+ubuntu$ sh test.sh
+```
+
 ### _Clean Up_
 
 ```console
