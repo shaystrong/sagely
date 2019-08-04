@@ -1755,3 +1755,11 @@ time: 0.00564122200012207  count: 0
 [I 15:04:16.409 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
 [I 15:09:22.267 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
 [I 15:09:40.509 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 15:31:54.159 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 15:33:35.271 NotebookApp] 302 GET /notebooks/assets/happycloud.png (::1) 3.48ms
+[I 15:34:44.519 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 15:34:46.620 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 15:35:15.259 NotebookApp] 302 GET /notebooks/assets/happycloud.png (::1) 0.97ms
+[I 15:36:46.650 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 15:37:42.086 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 15:38:47.077 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
