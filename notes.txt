@@ -1,8 +1,0 @@
-import papermill as pm
-pm.execute_notebook('osm_ml_training_pt2.ipynb','osm_ml_training_pt2_out.ipynb',
-	parameters = dict(sage_bucket='sagemaker-us-east-2-771575179338',my_bucket='geohack_sbs', role='AmazonSageMaker-ExecutionRole-20171129T143774'))
-
-
-
-sage_bucket='sagemaker-us-east-2-771575179338'
-my_bucket='geohack_sbs'
