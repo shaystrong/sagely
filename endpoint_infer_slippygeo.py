@@ -18,13 +18,13 @@ def num2deg(xtile, ytile, zoom):
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-mod', '--endpointName', dest='endpointName')
-parser.add_argument('-a', '--attribute', dest='attribute')
 parser.add_argument('-c', '--classes', nargs='+', dest='classes')
 parser.add_argument('-t', '--thresh', dest='thresh',help='detection threshold confidence')
 parser.add_argument('-ro', '--role', dest='role',help='s3 role')
 parser.add_argument('-pa', '--path', dest='path',help='local path to tms files')
-parser.add_argument('-z', '--zoom', dest='zoom',help='zoom level TMS', default='18')
+parser.add_argument('-z', '--zoom', dest='zoom',help='zoom level TMS', default='19')
 args = parser.parse_args()
+
 
 sagemaker_session = sagemaker.Session()
 role              = args.role
@@ -82,17 +82,14 @@ df_final=pd.DataFrame(
 
 dt=df_final[df_final['score'] > float(args.thresh)]
 dt['class']=dt['class'].astype('int')
-dt['class'] = dt['class'].map({0: object_categories[0],1: object_categories[1],
-	2: object_categories[2],3:object_categories[3],4:object_categories[4],5:object_categories[5],
-	6: object_categories[6],7: object_categories[7],8: object_categories[8],9:object_categories[9],
-	10:object_categories[10],11: object_categories[11]})
+dt['class'] = dt['class'].map({0: object_categories[0]})
 
 
 #gdf = gpd.GeoDataFrame(dt, crs={'init': 'epsg:4326'}, geometry=dt['geometry'])
-#gdf.to_file(endpointName+'_025.geojson',driver="GeoJSON")
+#gdf.to_file(endpointName+'_pred.geojson',driver="GeoJSON")
 
 print('\n\n*********************************************\n')
 print('Number of objects detected: ', len(dt))
 print('\n')
-print('Pole stats: ',dt.groupby('class').count()['score'])
+print('Stats: ',dt.groupby('class').count()['score'])
 print('\n*********************************************\n')
