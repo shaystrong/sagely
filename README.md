@@ -8,8 +8,6 @@ _Outputs_: TMS (slippy map) training data using the OSM vectors + AWS Sagemaker 
 
 ![](assets/comores.png)
 
-## Test
-
 ## This repo is still a work in progress! 
 
 There are TWO parts to this workflow. The first is best illustrated by checking out the ipynb tutorial that will walk you through the OSM vector data to ML training data. Once the traing data is generated, you can use the following scripts to create a virtual environment for AWS Sagemaker training.
