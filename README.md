@@ -53,11 +53,24 @@ You can start from here to run sagemaker (part II), or you can follow the label 
 
 ### _Test_
  
-Assuming you either have created an endpoint, you can predict labels using the endpoint. Edit the `test.sh` script to include your endpoint and data location.
+Assuming you either have created an endpoint, you can predict labels using the endpoint. Edit the `test.sh` script to include your endpoint (`mod`), data location path (`pa`),and  AWS S3 role (`ro`). The threshold for object detection (`t`) may also be configured but is set for 0.6 for this test.
+
+``` console
+python3 endpoint_infer_slippygeo.py -mod <your-endpoint> \
+-c buildings \
+-pa tiles/ \
+-ro <role>  \
+-t 0.6
+```
 
 ```console
 ubuntu$ sh test.sh
 ```
+
+Using the demo data discussed in the tutorial ipynb and limited rec files provided, this is the output I get. You can test my endpoint for consistency (Shay to provide).
+
+![](assets/testout.png)
+
 
 ### _Clean Up_
 
@@ -69,13 +82,13 @@ rm -rf /path/to/venv/sagemaker_trans/
 
 ## Train
 
+See the [OSM ML, Part II](https://github.com/shaystrong/sagely/blob/master/osm_ml_training_pt2.ipynb)
+
+
 ## Watch!
 
 Watch you model training on Sagemaker! You can login to the AWS console and see the progression of the learning as well as all your parameters. 
 
-## Metrics
-
-None Yet!
 
 ## Notes
 
