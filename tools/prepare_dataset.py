@@ -19,12 +19,14 @@ from __future__ import print_function
 import sys, os
 import argparse
 import subprocess
+import cv2
 curr_path = os.path.abspath(os.path.dirname(__file__))
 sys.path.append(os.path.join(curr_path, '..'))
 from dataset.pascal_voc import PascalVoc
 from dataset.mscoco import Coco
 from dataset.concat_db import ConcatDB
-
+import sys
+print(sys.version)
 def load_pascal(image_set, year, devkit_path, shuffle=False):
     """
     wrapper function for loading pascal voc dataset
@@ -122,9 +124,9 @@ if __name__ == '__main__':
 
     print("List file {} generated...".format(args.target))
 
-    subprocess.check_call(["python",
-        os.path.join(curr_path, "../../../tools/im2rec.py"),
+    subprocess.check_call(["python3",
+        os.path.join(curr_path, "im2rec.py"),
         os.path.abspath(args.target), os.path.abspath(args.root_path),
-        "--shuffle", str(int(args.shuffle)), "--pack-label", "1"])
+        "--pack-label"])
 
     print("Record file {} generated...".format(args.target.split('.')[0] + '.rec'))

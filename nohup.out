@@ -1540,3 +1540,216 @@ ls: VOC/JPEGImages/*.jpg: No such file or directory
 [I 00:09:57.027 NotebookApp] 302 GET /notebooks/assets/osm_deets.png (::1) 1.16ms
 [I 00:09:57.786 NotebookApp] Adapting to protocol v5.1 for kernel d1697cd8-d68e-4e40-af5c-8a4c3121b5d5
 [I 00:10:50.285 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[W 14:39:54.724 NotebookApp] WebSocket ping timeout after 239994 ms.
+[I 14:39:55.503 NotebookApp] Starting buffering for d50d6cac-c57d-495b-bbdc-81aa43a70484:72c9f3f1a59449528483b0b5df52fabe
+[I 15:16:10.142 NotebookApp] The port 8888 is already in use, trying another port.
+[I 15:16:10.164 NotebookApp] Serving notebooks from local directory: /Users/shay.strong/Documents/github/public/sagely
+[I 15:16:10.164 NotebookApp] The Jupyter Notebook is running at:
+[I 15:16:10.165 NotebookApp] http://localhost:8889/?token=90c26b33a22b3455a55bde779e02eea2b9d5b5af09b34e19
+[I 15:16:10.165 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 15:16:10.173 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=90c26b33a22b3455a55bde779e02eea2b9d5b5af09b34e19
+[I 15:16:10.735 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[I 15:16:17.676 NotebookApp] Kernel started: 30af9816-5ad6-4baa-bf26-e41f4ca68306
+[I 15:16:18.355 NotebookApp] Adapting to protocol v5.1 for kernel 30af9816-5ad6-4baa-bf26-e41f4ca68306
+[I 15:17:02.470 NotebookApp] 302 GET /notebooks/assets/comores.png (::1) 1.73ms
+[I 15:17:02.472 NotebookApp] 302 GET /notebooks/assets/kenneth2019.png (::1) 1.09ms
+[I 15:17:02.474 NotebookApp] 302 GET /notebooks/assets/osm_deets.png (::1) 0.81ms
+[I 15:17:03.077 NotebookApp] Kernel started: 82edbddf-7617-4247-a3a1-caa63bc16c44
+[I 15:17:04.043 NotebookApp] Adapting to protocol v5.1 for kernel 82edbddf-7617-4247-a3a1-caa63bc16c44
+[I 15:18:17.677 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 22:18:43.498 NotebookApp] Starting buffering for 30af9816-5ad6-4baa-bf26-e41f4ca68306:d924fd0e1f1a4ba78a20dc9999394458
+[I 13:35:51.837 NotebookApp] 302 GET /notebooks/osm_ml_training_pt1.ipynb (::1) 57.85ms
+[W 20:25:13.250 NotebookApp] WebSocket ping timeout after 95421 ms.
+[W 20:25:19.336 NotebookApp] WebSocket ping timeout after 94387 ms.
+[I 20:27:11.849 NotebookApp] Starting buffering for 82edbddf-7617-4247-a3a1-caa63bc16c44:ea6a25fcbf1e4178824d4fad50746490
+[I 20:27:19.404 NotebookApp] Starting buffering for d1697cd8-d68e-4e40-af5c-8a4c3121b5d5:c95e683c6f3845958860a5870bf29b2a
+[I 21:31:10.371 NotebookApp] Serving notebooks from local directory: /Users/shay.strong/Documents/github/public/sagely
+[I 21:31:10.371 NotebookApp] The Jupyter Notebook is running at:
+[I 21:31:10.371 NotebookApp] http://localhost:8888/?token=ac131ad3e3b9fb86d50e72a7924cdfd8ceeae4fefd42a1a4
+[I 21:31:10.372 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 21:31:10.382 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=ac131ad3e3b9fb86d50e72a7924cdfd8ceeae4fefd42a1a4
+[I 21:31:10.999 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[W 21:31:11.318 NotebookApp] 404 GET /apple-touch-icon-precomposed.png (::1) 13.74ms referer=None
+[W 21:31:11.481 NotebookApp] 404 GET /apple-touch-icon.png (::1) 2.52ms referer=None
+[I 21:31:23.668 NotebookApp] 302 GET /notebooks/assets/comores.png (127.0.0.1) 2.03ms
+[I 21:31:23.670 NotebookApp] 302 GET /notebooks/assets/kenneth2019.png (127.0.0.1) 1.25ms
+[I 21:31:23.671 NotebookApp] 302 GET /notebooks/assets/osm_deets.png (127.0.0.1) 0.82ms
+[I 21:31:24.365 NotebookApp] Kernel started: 51571337-1492-4fec-bb37-ae50bcbc7f91
+[I 21:31:25.181 NotebookApp] Adapting to protocol v5.1 for kernel 51571337-1492-4fec-bb37-ae50bcbc7f91
+[I 22:48:47.255 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 22:52:47.225 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 23:04:49.462 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 23:06:49.462 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+Traceback (most recent call last):
+  File "/Users/shay.strong/Documents/github/public/sagely/tools/im2rec.py", line 7, in <module>
+    import mxnet as mx
+ImportError: No module named mxnet
+[I 23:20:53.464 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+Traceback (most recent call last):
+  File "/Users/shay.strong/Documents/github/public/sagely/tools/im2rec.py", line 7, in <module>
+    import mxnet as mx
+ImportError: No module named mxnet
+[I 23:22:53.471 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 13:57:05.401 NotebookApp] Kernel started: 6b513fc8-d507-4f7d-8a1d-c9dfd9c78344
+[I 13:57:06.421 NotebookApp] Adapting to protocol v5.1 for kernel 6b513fc8-d507-4f7d-8a1d-c9dfd9c78344
+[W 18:01:36.539 NotebookApp] WebSocket ping timeout after 861406 ms.
+[I 18:01:37.238 NotebookApp] Starting buffering for 6b513fc8-d507-4f7d-8a1d-c9dfd9c78344:96080360727e41938e1faa16eec8b00d
+[W 21:49:55.215 NotebookApp] WebSocket ping timeout after 6386762 ms.
+[I 21:49:55.843 NotebookApp] Starting buffering for 51571337-1492-4fec-bb37-ae50bcbc7f91:b5718261715245a491036bc66d2368e2
+[I 09:53:43.553 NotebookApp] Serving notebooks from local directory: /Users/shay.strong/Documents/github/public/sagely
+[I 09:53:43.554 NotebookApp] The Jupyter Notebook is running at:
+[I 09:53:43.554 NotebookApp] http://localhost:8888/?token=86eba62b48f5a8e73241c115f8da8701ceb2fc06e4602127
+[I 09:53:43.554 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:53:43.565 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=86eba62b48f5a8e73241c115f8da8701ceb2fc06e4602127
+[I 09:53:44.369 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[W 09:53:44.630 NotebookApp] 404 GET /apple-touch-icon-precomposed.png (::1) 11.75ms referer=None
+[W 09:53:44.635 NotebookApp] 404 GET /apple-touch-icon.png (::1) 1.34ms referer=None
+[I 09:53:49.960 NotebookApp] Kernel started: 7a68c67f-8eaa-4dc6-bd9f-2e45b056327c
+[I 09:53:50.762 NotebookApp] Adapting to protocol v5.1 for kernel 7a68c67f-8eaa-4dc6-bd9f-2e45b056327c
+[I 09:54:02.587 NotebookApp] 302 GET /notebooks/assets/comores.png (::1) 1.81ms
+[I 09:54:02.589 NotebookApp] 302 GET /notebooks/assets/kenneth2019.png (::1) 1.17ms
+[I 09:54:02.590 NotebookApp] 302 GET /notebooks/assets/osm_deets.png (::1) 1.00ms
+[I 09:54:03.158 NotebookApp] Kernel started: 629c6569-079c-49f7-98c2-48aeca9c3f93
+[I 09:54:03.921 NotebookApp] Adapting to protocol v5.1 for kernel 629c6569-079c-49f7-98c2-48aeca9c3f93
+[I 09:56:03.164 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 09:57:10.691 NotebookApp] 302 GET /notebooks/assets/osm_deets.png (::1) 0.88ms
+[I 09:57:10.693 NotebookApp] 302 GET /notebooks/assets/comores.png (::1) 0.70ms
+[I 09:57:10.694 NotebookApp] 302 GET /notebooks/assets/kenneth2019.png (::1) 0.76ms
+Traceback (most recent call last):
+  File "/Users/shay.strong/Documents/github/public/sagely/tools/im2rec.py", line 7, in <module>
+    import mxnet as mx
+ImportError: No module named mxnet
+[I 09:58:03.170 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+Creating .rec file from /Users/shay.strong/Documents/github/public/sagely/rec/train.lst in /Users/shay.strong/Documents/github/public/sagely/rec
+multiprocessing not available, fall back to single threaded encoding
+time: 0.0037949085235595703  count: 0
+[I 10:02:03.198 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+Creating .rec file from /Users/shay.strong/Documents/github/public/sagely/rec/val.lst in /Users/shay.strong/Documents/github/public/sagely/rec
+multiprocessing not available, fall back to single threaded encoding
+time: 0.0052220821380615234  count: 0
+[I 10:04:03.165 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 10:06:03.193 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 10:08:03.171 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 10:24:26.714 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 10:26:26.697 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 10:27:03.285 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:29:03.286 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:30:02.440 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:30:32.354 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:31:16.184 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:32:50.698 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:34:49.260 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:36:42.470 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:37:03.281 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:40:02.525 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:42:12.533 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:42:48.186 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:44:44.029 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:47:03.963 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:49:03.995 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:53:24.704 NotebookApp] 302 GET /notebooks/assets/happycloud.png (::1) 5.48ms
+[I 10:54:15.777 NotebookApp] 302 GET /notebooks/assets/happycloud.png (::1) 1.69ms
+[I 10:55:07.690 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:55:15.709 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:55:55.324 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 10:59:15.738 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 11:01:15.716 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 11:03:15.745 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 11:05:15.748 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 11:07:15.728 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 11:09:15.729 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+Creating .rec file from /Users/shay.strong/Documents/github/public/sagely/rec/val.lst in /Users/shay.strong/Documents/github/public/sagely/rec
+multiprocessing not available, fall back to single threaded encoding
+time: 0.012192010879516602  count: 0
+Creating .rec file from /Users/shay.strong/Documents/github/public/sagely/rec/train.lst in /Users/shay.strong/Documents/github/public/sagely/rec
+multiprocessing not available, fall back to single threaded encoding
+time: 0.004636049270629883  count: 0
+[I 11:17:03.974 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 11:17:33.942 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 11:19:21.208 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 11:19:33.948 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 11:21:33.958 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 11:23:33.974 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 11:31:10.886 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+Creating .rec file from /Users/shay.strong/Documents/github/public/sagely/rec/val.lst in /Users/shay.strong/Documents/github/public/sagely/rec
+multiprocessing not available, fall back to single threaded encoding
+time: 0.006231069564819336  count: 0
+[I 11:37:10.867 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:07:45.320 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:08:30.575 NotebookApp] 302 GET /notebooks/assets/comores.png (::1) 3.08ms
+[I 12:08:30.577 NotebookApp] 302 GET /notebooks/assets/kenneth2019.png (::1) 1.10ms
+[I 12:08:30.578 NotebookApp] 302 GET /notebooks/assets/osm_deets.png (::1) 0.82ms
+[I 12:09:45.275 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:11:45.285 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:13:45.342 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:18:52.208 NotebookApp] 302 GET /notebooks/assets/comores.png (::1) 5.36ms
+[I 12:18:52.212 NotebookApp] 302 GET /notebooks/assets/kenneth2019.png (::1) 1.22ms
+[I 12:18:52.214 NotebookApp] 302 GET /notebooks/assets/osm_deets.png (::1) 0.79ms
+[I 12:19:04.799 NotebookApp] 302 GET /notebooks/assets/supermercado.png (::1) 0.92ms
+[I 12:19:46.096 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:21:46.117 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:22:40.247 NotebookApp] 302 GET /notebooks/assets/supermercado.png (::1) 1.41ms
+[I 12:22:40.250 NotebookApp] 302 GET /notebooks/assets/supermercado_bldg.png (::1) 0.78ms
+[I 12:23:27.167 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:23:29.226 NotebookApp] 302 GET /notebooks/assets/supermercado.png (::1) 1.35ms
+[I 12:23:29.227 NotebookApp] 302 GET /notebooks/assets/supermercado_bldg.png (::1) 0.75ms
+[I 12:23:46.089 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:25:46.088 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:25:56.470 NotebookApp] 302 GET /notebooks/osm_ml_training_pt1.ipynb (::1) 0.57ms
+[I 12:27:46.091 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:29:46.108 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:31:46.110 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 12:35:46.097 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 13:12:44.580 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 13:14:44.581 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 13:16:47.621 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 13:25:23.445 NotebookApp] Kernel interrupted: 629c6569-079c-49f7-98c2-48aeca9c3f93
+[I 13:26:50.589 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 13:28:50.592 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 13:30:50.579 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 13:31:30.779 NotebookApp] 302 GET /notebooks/osm_ml_training_pt1.ipynb (::1) 0.58ms
+[I 13:34:50.633 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 13:36:50.601 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 14:11:33.962 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 14:21:01.024 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 14:21:32.743 NotebookApp] Kernel interrupted: 629c6569-079c-49f7-98c2-48aeca9c3f93
+[I 14:21:35.543 NotebookApp] Kernel interrupted: 629c6569-079c-49f7-98c2-48aeca9c3f93
+[I 14:21:36.196 NotebookApp] Kernel interrupted: 629c6569-079c-49f7-98c2-48aeca9c3f93
+[I 14:21:36.385 NotebookApp] Kernel interrupted: 629c6569-079c-49f7-98c2-48aeca9c3f93
+mogrify: improper image header `VOC1900/JPEGImages/19_326839_279958.png' @ error/png.c/ReadPNGImage/4232.
+[I 14:21:36.577 NotebookApp] Kernel interrupted: 629c6569-079c-49f7-98c2-48aeca9c3f93
+[I 14:21:55.071 NotebookApp] Starting buffering for 629c6569-079c-49f7-98c2-48aeca9c3f93:f10afd6a756342bea9f8d7764a049d43
+[I 14:21:55.490 NotebookApp] 302 GET /notebooks/assets/comores.png (::1) 1.67ms
+[I 14:21:55.493 NotebookApp] 302 GET /notebooks/assets/kenneth2019.png (::1) 1.96ms
+[I 14:21:55.496 NotebookApp] 302 GET /notebooks/assets/osm_deets.png (::1) 2.39ms
+[I 14:21:56.102 NotebookApp] 302 GET /notebooks/assets/supermercado.png (::1) 1.47ms
+[I 14:21:56.105 NotebookApp] 302 GET /notebooks/assets/supermercado_bldg.png (::1) 1.93ms
+[I 14:21:56.513 NotebookApp] Adapting to protocol v5.1 for kernel 629c6569-079c-49f7-98c2-48aeca9c3f93
+[I 14:31:56.634 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 14:33:56.627 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 14:34:18.218 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 14:53:56.898 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 14:55:56.902 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 14:57:56.885 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+Creating .rec file from /Users/shay.strong/Documents/github/public/sagely/rec/train.lst in /Users/shay.strong/Documents/github/public/sagely/rec
+multiprocessing not available, fall back to single threaded encoding
+time: 0.011128902435302734  count: 0
+Creating .rec file from /Users/shay.strong/Documents/github/public/sagely/rec/val.lst in /Users/shay.strong/Documents/github/public/sagely/rec
+multiprocessing not available, fall back to single threaded encoding
+time: 0.00564122200012207  count: 0
+[I 15:01:11.945 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 15:01:56.881 NotebookApp] Saving file at /osm_ml_training_pt1.ipynb
+[I 15:03:11.945 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb
+[I 15:04:16.409 NotebookApp] Saving file at /osm_ml_training_pt2.ipynb

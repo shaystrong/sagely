@@ -51,7 +51,7 @@ class PascalVoc(Imdb):
         self.extension = '.jpg'
         self.is_train = is_train
 
-        self.classes = ['calvarium','plate']#self._load_class_names(names,
+        self.classes = ['buildings']#self._load_class_names(names,
             #os.path.join(os.path.dirname(__file__), 'names'))
 
         self.config = {'use_difficult': False,
