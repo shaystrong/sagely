@@ -14,41 +14,41 @@ _Outputs_: TMS (slippy map) training data using the OSM vectors + AWS Sagemaker 
 
 There are TWO parts to this workflow. The first is best illustrated by checking out the ipynb tutorial that will walk you through the OSM vector data to ML training data. Once the traing data is generated, you can use the following scripts to create a virtual environment for AWS Sagemaker training.
 
+To use this tutorial, a good starting point will be the two ipynb (part I and part II).
+
 ### _Setup Your Machine_
 
 1) setup a virtual environnment: 
 
 ```console
-SStrong-CRYL17$ virtualenv -p python3 sagemaker_trans
-SStrong-CRYL17$ source sagemaker_trans/bin/activate
-SStrong-CRYL17$ cd sagemaker_trans/
+ubuntu$ virtualenv -p python3 sagemaker_trans
+ubuntu$ source sagemaker_trans/bin/activate
+ubuntu$ cd sagemaker_trans/
 ```
 
 2) Clone this repo onto your local machine.
 
 ```console
-SStrong-CRYL17$ git clone https://github.com/shaystrong/sagely.git
-SStrong-CRYL17$ cd sagely/
+ubuntu$ git clone https://github.com/shaystrong/sagely.git
+ubuntu$ cd sagely/
 ```
 
 3) Run the setup. It will install necessary libraries
 
 ```console
-SStrong-CRYL17$ sh setup.sh
+ubuntu$ sh setup.sh
 ```
 
 ### _Download Script_
 ```console
-SStrong-CRYL17$ sh get_data.sh
+ubuntu$ sh get_data.sh
 ```
 
-### _Test Script_
-```console
-SStrong-CRYL17$ sh test.sh
-```
+This will download the mxnet .rec files generated at the end of the part I ipynb. You can start from here to run sagemaker, or you can follow the label generation process from the start in part I. The part II notebook is strictly running a Sagemaker training event and creating an endpoint. 
 
-Results should look like:
-![]()  
+### _Run Script_
+
+
 
 ### _Clean Up_
 
