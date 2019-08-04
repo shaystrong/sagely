@@ -14,9 +14,9 @@ There are TWO parts to this workflow. The first is best illustrated by checking 
 
 To use this tutorial, a good starting point will be the two ipynb (part I and part II).
 
-[](https://github.com/shaystrong/sagely/blob/master/osm_ml_training_pt1.ipynb)
+[OSM ML, Part I](https://github.com/shaystrong/sagely/blob/master/osm_ml_training_pt1.ipynb)
 
-[](https://github.com/shaystrong/sagely/blob/master/osm_ml_training_pt2.ipynb)
+[OSM ML, Part II](https://github.com/shaystrong/sagely/blob/master/osm_ml_training_pt2.ipynb)
 
 
 ### _Setup Your Machine_
