@@ -21,37 +21,41 @@ To use this tutorial, a good starting point will be the two ipynb (part I and pa
 
 ### _Setup Your Machine_
 
+This tutorial uses a Python3 virtual environment. See details below and in the setup.sh file
+
+
 1) setup a virtual environnment: 
 
 ```console
 ubuntu$ virtualenv -p python3 sagemaker_trans
 ubuntu$ source sagemaker_trans/bin/activate
-ubuntu$ cd sagemaker_trans/
+(sagemaker_trans) ubuntu$ cd sagemaker_trans/
 ```
 
 2) Clone this repo onto your local machine.
 
 ```console
-ubuntu$ git clone https://github.com/shaystrong/sagely.git
-ubuntu$ cd sagely/
+(sagemaker_trans) ubuntu$ git clone https://github.com/shaystrong/sagely.git
+(sagemaker_trans) ubuntu$ cd sagely/
 ```
 
 3) Run the setup. It will install necessary libraries
 
 ```console
-ubuntu$ sh setup.sh
+(sagemaker_trans) ubuntu$ sh setup.sh
 ```
 
-### _Download Script_
+### _Download Demo Data Script_
+
 ```console
-ubuntu$ sh get_data.sh
+(sagemaker_trans) ubuntu$ sh get_data.sh
 ```
 
 This will download the mxnet .rec files generated at the end of the part I ipynb. This will also download the full set of DG tiles that we will infer against later. 
 
 You can start from here to run sagemaker (part II), or you can follow the label generation process from the start in part I. The part II notebook is strictly running a Sagemaker training event and creating an endpoint. 
 
-### _Test_
+### _Test the model you create_
  
 Assuming you either have created an endpoint, you can predict labels using the endpoint. Edit the `test.sh` script to include your endpoint (`mod`), data location path (`pa`),and  AWS S3 role (`ro`). The threshold for object detection (`t`) may also be configured but is set for 0.6 for this test.
 
@@ -64,7 +68,7 @@ python3 endpoint_infer_slippygeo.py -mod <your-endpoint> \
 ```
 
 ```console
-ubuntu$ sh test.sh
+(sagemaker_trans) ubuntu$ sh test.sh
 ```
 
 Using the demo data discussed in the tutorial ipynb and limited rec files provided, this is the output I get. You can test my endpoint for consistency (Shay to provide).
