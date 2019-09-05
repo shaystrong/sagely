@@ -5,3 +5,4 @@ pip install shapely
 pip install geopandas
 pip install numpy
 pip install mxnet
+pip install jupyter
