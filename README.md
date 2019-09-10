@@ -55,13 +55,21 @@ This will download the mxnet .rec files generated at the end of the part I ipynb
 
 You can start from here to run sagemaker (part II), or you can follow the label generation process from the start in part I. The part II notebook is strictly running a Sagemaker training event and creating an endpoint. 
 
-### _Start the Notebook Server
+### _Start the Notebook Server_
 
 Start the Jupyter notebook server in the background with nohup. This creates a 'nohup.out' file where all cli logging is sent.
 
 ```console
 (sagemaker_trans) ubuntu$ nohup jupyter notebook &
 ```
+
+### _Run the Notebooks_
+
+Run the notebooks once your web browser pops open the Jupyter Notebook site. This is a local site running only on your machine.
+
+[OSM ML, Part I](https://github.com/shaystrong/sagely/blob/master/osm_ml_training_pt1.ipynb)
+
+[OSM ML, Part II](https://github.com/shaystrong/sagely/blob/master/osm_ml_training_pt2.ipynb)
 
 ### _Test the model you create_
  
