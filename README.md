@@ -55,6 +55,14 @@ This will download the mxnet .rec files generated at the end of the part I ipynb
 
 You can start from here to run sagemaker (part II), or you can follow the label generation process from the start in part I. The part II notebook is strictly running a Sagemaker training event and creating an endpoint. 
 
+### _Start the Notebook Server
+
+Start the Jupyter notebook server in the background with nohup. This creates a 'nohup.out' file where all cli logging is sent.
+
+```console
+(sagemaker_trans) ubuntu$ nohup jupyter notebook &
+```
+
 ### _Test the model you create_
  
 Assuming you either have created an endpoint, you can predict labels using the endpoint. Edit the `test.sh` script to include your endpoint (`mod`), data location path (`pa`),and  AWS S3 role (`ro`). The threshold for object detection (`t`) may also be configured but is set for 0.6 for this test.
