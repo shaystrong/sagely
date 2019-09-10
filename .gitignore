@@ -1,5 +1,7 @@
 nohup.out
 VOC1900*
+*mbtiles
+*tif
 osm_ml_training_pt1_out*
 tiles*
 *checkpoint*
