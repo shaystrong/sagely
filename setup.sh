@@ -8,3 +8,4 @@ pip install mxnet
 pip install jupyter
 pip install awscli
 pip install matplotlib
+pip install osmnx
