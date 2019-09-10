@@ -1,1 +1,0 @@
-<Annotation><folder>VOC1900</folder><filename>19_326997_280129jpg</filename><path>VOC1900/JPEGImages/19_326997_280129.jpg</path><object><name>buildings</name><bndbox><xmin>78</xmin><ymin>43</ymin><xmax>163</xmax><ymax>163</ymax></bndbox></object><size><width>256</width><height>256</height><depth>3</depth></size></Annotation>
