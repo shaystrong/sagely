@@ -59,17 +59,17 @@ def tmsVOCxml(dirr,label,joined):
 def supermercado_labels(df,zoom):
         import geopandas as gpd
         import os
-        os.system('cat box_labels.geojson | supermercado burn '+str(zoom)+' | mercantile shapes | fio collect > box_labels_supermarket.geojson')   #create a geojson of tms tiles
-        print('supermercado tile geojson created... ','box_labels_supermarket.geojson')
-        superm = gpd.GeoDataFrame.from_file('box_labels_supermarket.geojson')
-        label = gpd.GeoDataFrame.from_file('box_labels.geojson')
+        os.system('cat vector/box_labels.geojson | supermercado burn '+str(zoom)+' | mercantile shapes | fio collect > vector/box_labels_supermarket.geojson')   #create a geojson of tms tiles
+        print('supermercado tile geojson created... ','vector/box_labels_supermarket.geojson')
+        superm = gpd.GeoDataFrame.from_file('vector/box_labels_supermarket.geojson')
+        label = gpd.GeoDataFrame.from_file('vector/box_labels.geojson')
         joined=gpd.sjoin(label,superm,op='intersects')
         j=joined.title.str.split(' ',expand=True).add_prefix('tms')
         joined['x']=j['tms2'].map(lambda x: x.lstrip('(,)').rstrip('(,)'))
         joined['y']=j['tms3'].map(lambda x: x.lstrip('(,)').rstrip('(,)'))
         joined['z']=j['tms4'].map(lambda x: x.lstrip('(,)').rstrip('(,)'))
         joined=joined[['class', 'geometry', 'x', 'y', 'z']]
-        market_labels='box_labels_marketlabeled.geojson'
+        market_labels='vector/box_labels_marketlabeled.geojson'
         joined['minx'],joined['miny'],joined['maxx'],joined['maxy']=joined.bounds.minx,joined.bounds.miny,joined.bounds.maxx,joined.bounds.maxy
         joined['fracminy'],integerminy,joined['fracminx'],integerminx=ll2subpix(joined['miny'],joined['minx'],zoom)
         joined['fracmaxy'],integermaxy,joined['fracmaxx'],integermaxx=ll2subpix(joined['maxy'],joined['maxx'],zoom)

@@ -10,3 +10,4 @@ pip install awscli
 pip install matplotlib
 pip install osmnx
 pip install folium
+pip install opencv-python
