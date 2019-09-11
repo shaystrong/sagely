@@ -21,7 +21,9 @@ To use this tutorial, a good starting point will be the two ipynb (part I and pa
 
 ### _Setup Your Machine_
 
-This tutorial uses a Python3 virtual environment. See details below and in the setup.sh file
+This tutorial uses a Python3 virtual environment. See details below and in the setup.sh file.
+
+You can also run the notebooks via docker. See [Docker Install and Run](#docker-install-and-run) below.
 
 
 1) setup a virtual environnment: 
@@ -62,6 +64,31 @@ Start the Jupyter notebook server in the background with nohup. This creates a '
 ```console
 (sagemaker_trans) ubuntu$ nohup jupyter notebook &
 ```
+
+### _Docker Install and Run_
+
+Pre-requisites: [Install docker](https://docs.docker.com/install/)
+
+Build the docker image (will take a up to 10 minutes to run):
+
+```bash
+docker build -t sagely .
+```
+
+Run the docker container:
+
+```bash
+docker run -it -p 8888:8888 sagely
+```
+
+The above command should return a url like:
+
+```
+http://127.0.0.1:8888/?token=a41763eea9bf3ce73104e38dbddc161dafc175e83106eaa3
+```
+
+which you can copy / paste into a browser to open up jupyter notebook and run the notebooks described below.
+
 
 ### _Run the Notebooks_
 

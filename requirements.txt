@@ -1,0 +1,15 @@
+tqdm
+sagemaker
+shapely
+geopandas
+numpy
+mxnet
+jupyter
+awscli
+matplotlib
+osmnx==0.08
+folium
+opencv-python
+papermill
+requests==2.21
+supermercado
