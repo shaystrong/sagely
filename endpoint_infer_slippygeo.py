@@ -23,14 +23,28 @@ parser.add_argument('-t', '--thresh', dest='thresh',help='detection threshold co
 parser.add_argument('-ro', '--role', dest='role',help='s3 role')
 parser.add_argument('-pa', '--path', dest='path',help='local path to tms files')
 parser.add_argument('-z', '--zoom', dest='zoom',help='zoom level TMS', default='19')
+parser.add_argument('-secret', '--secret')
+parser.add_argument('-access_key', '--access_key')
+
 args = parser.parse_args()
 
 
-sagemaker_session = sagemaker.Session()
+import boto3
+
+my_east_sesison = boto3.Session(region_name = 'us-east-2',profile_name='uw')
+s3_client = my_east_sesison.client(
+    's3',
+    aws_access_key_id=args.access_key,
+    aws_secret_access_key=args.secret
+)
+s3 = my_east_sesison.resource('s3')
+sess = sagemaker.Session(boto_session=my_east_sesison)
+
+
 role              = args.role
 endpointName      = args.endpointName 
 predictor = sagemaker.predictor.RealTimePredictor(endpointName, 
-               sagemaker_session=sagemaker_session,content_type='image/png')
+               sagemaker_session=sess,content_type='image/png')
 
 print('sagemaker endpoint is: ',endpointName)
 
