@@ -100,8 +100,11 @@ dt['class'] = dt['class'].map({0: object_categories[0]})
 
 
 gdf = gpd.GeoDataFrame(dt, crs={'init': 'epsg:4326'}, geometry=dt['geometry'])
-gdf.to_file('vector/'+endpointName+'_pred.geojson',driver="GeoJSON")
-
+try:
+	gdf.to_file('vector/'+endpointName+'_pred.geojson',driver="GeoJSON")
+except:
+	raise
+	
 print('\n\n*********************************************\n')
 print('Number of objects detected: ', len(dt))
 print('\n')
