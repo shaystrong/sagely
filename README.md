@@ -78,7 +78,7 @@ docker build -t sagely .
 Run the docker container:
 
 ```bash
-docker run -p 8888:8888 sagely
+docker run -it -p 8888:8888 sagely
 ```
 
 The above command should return a url like:
