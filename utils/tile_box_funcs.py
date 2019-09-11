@@ -100,29 +100,27 @@ def cleanupPairs(pathh):
                 filename_zero, fileext = filename_split
                 basename = os.path.basename(filename_zero)
                 if  not os.path.isfile(pathh+'Annotations/'+basename+'.xml'):
-
-def flattenTMS(tilepath,zoom,voc):
-        """flatten the TMS tile structure to put all images in one directory
-                e.g. tilepath='tiles', zoom='18'"""
-        import glob,os
-        for i in glob.glob(tilepath+'/'+zoom+'/*/*png'):
-                filename_split = os.path.splitext(i)
-                filename_zero, fileext = filename_split
-                basename = os.path.basename(filename_zero)
-                strn=i.split('/')[-3]+'_'+i.split('/')[-2]+'_'+i.split('/')[-1]
-                #write_xml_annotation(strn, boxCoords)
-                if not os.path.exists(voc+'JPEGImages/'):
-                        os.mkdir(tilevocath+'JPEGImages/')
-                os.system('cp '+i+' '+voc+'JPEGImages/'+strn)
-                os.system('mogrify -format jpg '+voc+'JPEGImages/*.png')
-                os.system('rm '+voc+'JPEGImages/*.jpg')
-
+                	os.system('rm '+i)
+                
+def flattenTMS(tilepath,zoom,voc): #flatten the TMS tile structure to put all images in one directory e.g. tilepath='tiles', zoom='18'
+	import glob,os
+	for i in glob.glob(tilepath+'/'+zoom+'/*/*png'):
+		filename_split = os.path.splitext(i)
+		filename_zero, fileext = filename_split
+		basename = os.path.basename(filename_zero)
+		strn=i.split('/')[-3]+'_'+i.split('/')[-2]+'_'+i.split('/')[-1]
+		#write_xml_annotation(strn, boxCoords)
+		if not os.path.exists(voc+'JPEGImages/'):
+			os.mkdir(tilevocath+'JPEGImages/')
+		os.system('cp '+i+' '+voc+'JPEGImages/'+strn)
+		os.system('mogrify -format jpg '+voc+'JPEGImages/*.png')
+		os.system('rm '+voc+'JPEGImages/*.jpg')
 
 def footprint2box(vector):
-        df = vector  
-        df['geometry']=df.envelope      #round to nearest (axis-aligned_ rectangle
-        #df.to_file('box_labels.geojson',driver='GeoJSON')
-        df['class']='building'  #all buildings we will just call class=buildings
-        return df
+	df = vector  
+	df['geometry']=df.envelope      #round to nearest (axis-aligned_ rectangle
+	#df.to_file('box_labels.geojson',driver='GeoJSON')
+	df['class']='building'  #all buildings we will just call class=buildings
+	return df
 
 #df=footprint2box(buildings)
