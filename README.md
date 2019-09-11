@@ -87,7 +87,7 @@ The above command should return a url like:
 http://127.0.0.1:8888/?token=a41763eea9bf3ce73104e38dbddc161dafc175e83106eaa3
 ```
 
-which you can use in a browser to open up the notebooks described below.
+which you can copy / paste into a browser to open up jupyter notebook and run the notebooks described below.
 
 
 ### _Run the Notebooks_
