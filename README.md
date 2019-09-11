@@ -69,13 +69,13 @@ Start the Jupyter notebook server in the background with nohup. This creates a '
 
 Pre-requisites: [Install docker](https://docs.docker.com/install/)
 
-Then run (will take a up to 10 minutes to run):
+Build the docker image (will take a up to 10 minutes to run):
 
 ```bash
 docker build -t sagely .
 ```
 
-and run:
+Run the docker container:
 
 ```bash
 docker run -p 8888:8888 sagely
