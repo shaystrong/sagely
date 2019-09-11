@@ -13,4 +13,4 @@ pip install folium
 pip install opencv-python
 pip install papermill
 pip install requests==2.21
-
+pip install supermercado
