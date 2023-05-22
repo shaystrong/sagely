@@ -11,5 +11,5 @@ osmnx==0.08
 folium
 opencv-python
 papermill
-requests==2.21
+requests==2.31.0
 supermercado
